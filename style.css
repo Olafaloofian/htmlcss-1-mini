@@ -17,6 +17,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -43,8 +45,26 @@ table {
 }
 
 
+/* ========== */
 
 header {
     background: darkslategrey;
-    height: 100px;
+	height: 100px;
+	padding: 29px;
+}
+
+.logo, .menu {
+	color: mediumvioletred;
+	background: white;
+	height: 40px;
+}
+
+.logo {
+	float: left;
+	width: 200px;
+}
+
+.menu {
+	float: right;
+	width: 500px;
 }
